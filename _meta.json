@@ -1,0 +1,27 @@
+{
+  "name": "academic-ppt-html",
+  "version": "2.2.0",
+  "description": "将学术论文 PDF 转换为完整的中文课堂演示包。玻璃拟态精美 HTML 演示、AI 视觉识别 Figure、智能图片插入、多种幻灯片类型。",
+  "author": "Academic PPT HTML Contributors",
+  "license": "MIT",
+  "main": "run.py",
+  "dependencies": [
+    "pymupdf>=1.23.0",
+    "Pillow>=9.0"
+  ],
+  "keywords": [
+    "academic",
+    "presentation",
+    "html",
+    "ppt",
+    "paper",
+    "pdf",
+    "AI-assisted",
+    "multimodal",
+    "figure-extraction"
+  ],
+  "scripts": {
+    "run": "python run.py",
+    "crop": "python crop_figures.py"
+  }
+}
